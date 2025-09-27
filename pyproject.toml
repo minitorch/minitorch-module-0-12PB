@@ -5,6 +5,9 @@ build-backend = "hatchling.build"
 [project]
 name = "minitorch"
 version = "0.5"
+dependencies = [
+    "hypothesis>=6.139.2",
+]
 
 [tool.pyright]
 include = ["**/minitorch"]
